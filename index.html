@@ -27,97 +27,6 @@
 </head>
 
 <body>
-<!--
-
-<header>
-
-<div class="main-wrapper">
-
-  <div class="main-wrapper__rectangle1">
-
-    <div class="main-wrapper__text">
-      <p>Led освещение и электротовары для дома, офима и промышленных объектов</p>
-    </div>
-
-    <div>
-      <form class="main-wrapper__form">
-        <input placeholder="нажми на меня" type="text">
-        <img src='img/search.svg'>
-      </form>
-    </div>
-
-    <div class="main-wrapper__button-position">
-      <button class="main-wrapper__button" type='button'>
-        <img src='img/phone.svg'>
-        <span class="button__span">Перезвонить мне</span>
-      </button>
-    </div>
-
-    <div class="main-wrapper__phones">
-      <a href="tel:+375(17)516-22-57">+375(17)516-22-57</a>
-      <button class="main-wrapper__phones-button" type="button">
-        <img src="img/allPhones.svg" width="6px">
-      </button>
-    </div>
-
-    <div class="main-wrapper__messagers">
-      <ul>
-        <li>
-          <a href="#">
-            <span class="visually-hidden">Ватсап</span>
-            <img src="img/whatsapHeader.png" width="21.94px" height="22.05px" alt="Ватсап"/>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="visually-hidden">Вайбер</span>
-            <img src="img/viber.svg" width="22.25px" height="23px" alt="Вайбер"/>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="visually-hidden">Телеграм</span>
-            <img src="img/telegram.svg" width="21.31px" height="17.82px" alt="Телеграм"/>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="main-wrapper__rectangle2">
-    <img src="img/logo.png" alt="logotip">
-    <nav class="main-menu">
-      <ul>
-        <li>
-          <a href="#">Каталог</a>
-        </li>
-        <li>
-          <a href="#">Справочник</a>
-        </li>
-        <li>
-          <a href="#">Сертификаты</a>
-        </li>
-        <li>
-          <a href="#">О компании</a>
-        </li>
-        <li>
-          <a href="#">Блог</a>
-        </li>
-        <li>
-          <a href="#">Контакты</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="main-menu__buttons">
-      <button type="button">
-        <img src="img/statistika.svg" width="21px" height="25.42px">
-        <img src="img/korsina.svg" width="27px" height="27px">
-      </button>
-    </div>
-  </div>
-</div>
-</header>
--->
-
 <header class="header">
   <div class="rectangle-1">
     <div class="header__container-above">
@@ -131,18 +40,36 @@
         </form>
       </div>
       <div class="container-above__button">
-        <div class="button-container">
+        <div class="header-button">
           <button type="button">
             <img src="img/phone.svg" alt="phone">
             <p>Перезвонить мне</p>
           </button>
         </div>
       </div>
+
+      
       <div class="container-above__links">
-        <div class="links__phones">
-          <a href="tel:+375 (17) 516-22-57">+375 (17) 516-22-57</a>
+        <div class="numbers">
+          <ul class="menu">
+            <li class="visiblePhone">
+                <a href="tel:+375 (17) 516-22-57">+375 (17) 516-22-57
+                    <img src="img/checkMark.svg" alt="down">
+                </a>
+              <ul class="hidenPhones">
+                <li><a href="tel:+375 (17) 516-22-37">+375 (17) 516-22-37</a></li>
+                <li><a href="tel:+375 (29) 384-41-08">+375 (29) 384-41-08</a></li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+        <!-- <a href="tel:+375 (17) 516-22-57">+375 (17) 516-22-57</a>
           <span> <img src="img/checkMark.svg" alt="checkMark" width="6px" height="11px"></span>
-        </div>
+          --> 
+       
+
+
+
         <div class="messegers">
           <div>
             <img src="img/whatsapHeader.png" alt="whatsapp" width="21.94px" height="22.05px">
@@ -212,13 +139,13 @@
   <section class="section-slider">
     <div class="swiper-container s1">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="img/slider1.jpg"></div>
-        <div class="swiper-slide"><img src="img/slider2.jpg"></div>
-        <div class="swiper-slide"><img src="img/slider3.jpg"></div>
-        <div class="swiper-slide"><img src="img/slider4.jpg"></div>
-        <div class="swiper-slide"><img src="img/slider5.jpg"></div>
-        <div class="swiper-slide"><img src="img/slider6.jpg"></div>
-        <div class="swiper-slide"><img src="img/slider7.jpg"></div>
+        <div class="swiper-slide"><img src="img/slider1.jpg" width="100%" height="100%"></div>
+        <div class="swiper-slide"><img src="img/slider2.jpg" width="100%" height="100%"></div>
+        <div class="swiper-slide"><img src="img/slider3.jpg" width="100%" height="100%"></div>
+        <div class="swiper-slide"><img src="img/slider4.jpg" width="100%" height="100%"></div>
+        <div class="swiper-slide"><img src="img/slider5.jpg" width="100%" height="100%"></div>
+        <div class="swiper-slide"><img src="img/slider6.jpg" width="100%" height="100%"></div>
+        <div class="swiper-slide"><img src="img/slider7.jpg" width="100%" height="100%"></div>
       </div>
       <!-- Add Arrows -->
       <div class="swiper-button-next s1"></div>
@@ -264,318 +191,198 @@
   </section>
 
 
-  <section class="chapter__popular">
-    <div class="chapter-popular__text">
-      <p>Популярные товары</p>
-    </div>
+  <section class="chapter">
+     <div class="container">
+       <div class="chapter-text">
+         <div class="white">
+          <p>Популярные товары</p>
+         </div>
+         
+       </div>
+     </div>
   </section>
 
-  <section class="second-slider">
-
-    <div class="swiper-container s2 sw-cont">
-      <div class="swiper-wrapper sw-wrap">
-        <div class="swiper-slide sw-slide">
-          <div class="cards">
-            <div class="card--product">
-              <img src="img/product.png">
-              <div class="product__text">
-                <p class="card__text">
-                  ЭРА кабель витая пара F/UTP
-                  4*2*24AWG Cat5e CU PE OUTDOOR
-                  305 м SIMPLE (1/32) (1/32)
-                </p>
-              </div>
-              <div class="card--product__cost">
-                <p class="card--product__cost--text">
-                  <span class="card--product__cost--text-red">190 б.р</span>
-                  <br>
-                  <span class="card--product__cost--text-through"> 250 б.р</span>
-                </p>
-                <div class="card--product__cost--button">
-                  <button type="button">
-                    <img src="img/statistika.svg">
-                  </button>
-                  <button type="button">
-                    <img src="img/korsina.svg">
-                  </button>
-                </div>
-              </div>
+<section class="second-slider">
+  <div class="slider-second">
+      <div class="swiper-container second">
+          <div class="swiper-wrapper second">
+            <div class="swiper-slide second">
+                  <div class="product-card">
+                      <a href="" class="product-card__link">
+                          <img src="img/product.png" alt="form">
+                      </a>
+                      <div class="product__text">
+                          <p>
+                            ЭРА кабель витая пара F/UTP
+                            4*2*24AWG Cat5e CU PE OUTDOOR
+                            305 м SIMPLE (1/32) (1/32)
+                          </p>
+                      </div>    
+                  <div class="product-bottom">
+                          <div class="price">
+                              <p class="red">190 б.р.</p>
+                              <p class="del">250 б.р.</p>
+                            </div>
+                          <div class="button-container">
+                              <a href="">
+                                  <img src="img/statistika.svg" alt="stat">
+                              </a>
+                              <button class="shopping-cart">
+                                  <img src="img/korsina.svg" alt="cart">
+                              </button>
+                          </div>
+                      </div>
+                      <div class="hover-div">
+                          <a href="" class="hover-button">Купить в 1 клик</a>
+                      </div>
+                      <a href="" class="hover"></a>
+                  </div>
             </div>
-          </div>
+            <div class="swiper-slide second">
+              <div class="product-card">
+                  <a href="" class="product-card__link">
+                      <img src="img/product.png" alt="form">
+                  </a>
+                  <div class="product__text">
+                      <p>
+                        ЭРА кабель витая пара F/UTP
+                        4*2*24AWG Cat5e CU PE OUTDOOR
+                        305 м SIMPLE (1/32) (1/32)
+                      </p>
+                  </div>    
+              <div class="product-bottom">
+                      <div class="price">
+                          <p class="red">190 б.р.</p>
+                          <p class="del">250 б.р.</p>
+                        </div>
+                      <div class="button-container">
+                          <a href="">
+                              <img src="img/statistika.svg" alt="stat">
+                          </a>
+                          <button class="shopping-cart">
+                              <img src="img/korsina.svg" alt="cart">
+                          </button>
+                      </div>
+                  </div>
+                  <div class="hover-div">
+                      <a href="" class="hover-button">Купить в 1 клик</a>
+                  </div>
+                  <a href="" class="hover"></a>
+              </div>
         </div>
-        <div class="swiper-slide sw-slide">
-          <div class="cards">
-            <div class="card--product">
-              <img src="img/product.png">
+        <div class="swiper-slide second">
+          <div class="product-card">
+              <a href="" class="product-card__link">
+                  <img src="img/product.png" alt="form">
+              </a>
               <div class="product__text">
-                <p class="card__text">
-                  ЭРА кабель витая пара F/UTP
-                  4*2*24AWG Cat5e CU PE OUTDOOR
-                  305 м SIMPLE (1/32) (1/32)
-                </p>
+                  <p>
+                    ЭРА кабель витая пара F/UTP
+                    4*2*24AWG Cat5e CU PE OUTDOOR
+                    305 м SIMPLE (1/32) (1/32)
+                  </p>
+              </div>    
+          <div class="product-bottom">
+                  <div class="price">
+                      <p class="red">190 б.р.</p>
+                      <p class="del">250 б.р.</p>
+                    </div>
+                  <div class="button-container">
+                      <a href="">
+                          <img src="img/statistika.svg" alt="stat">
+                      </a>
+                      <button class="shopping-cart">
+                          <img src="img/korsina.svg" alt="cart">
+                      </button>
+                  </div>
               </div>
-              <div class="card--product__cost">
-                <p class="card--product__cost--text">
-                  <span class="card--product__cost--text-red">190 б.р</span>
-                  <br>
-                  <span class="card--product__cost--text-through"> 250 б.р</span>
-                </p>
-                <div class="card--product__cost--button">
-                  <button type="button">
-                    <img src="img/statistika.svg">
-                  </button>
-                  <button type="button">
-                    <img src="img/korsina.svg">
-                  </button>
-                </div>
+              <div class="hover-div">
+                  <a href="" class="hover-button">Купить в 1 клик</a>
               </div>
-            </div>
+              <a href="" class="hover"></a>
           </div>
-        </div>
-        <div class="swiper-slide sw-slide">
-          <div class="cards">
-            <div class="card--product">
-              <img src="img/product.png">
-              <div class="product__text">
-                <p class="card__text">
-                  ЭРА кабель витая пара F/UTP
-                  4*2*24AWG Cat5e CU PE OUTDOOR
-                  305 м SIMPLE (1/32) (1/32)
-                </p>
-              </div>
-              <div class="card--product__cost">
-                <p class="card--product__cost--text">
-                  <span class="card--product__cost--text-red">190 б.р</span>
-                  <br>
-                  <span class="card--product__cost--text-through"> 250 б.р</span>
-                </p>
-                <div class="card--product__cost--button">
-                  <button type="button">
-                    <img src="img/statistika.svg">
-                  </button>
-                  <button type="button">
-                    <img src="img/korsina.svg">
-                  </button>
+    </div>
+    <div class="swiper-slide second">
+      <div class="product-card">
+          <a href="" class="product-card__link">
+              <img src="img/product.png" alt="form">
+          </a>
+          <div class="product__text">
+              <p>
+                ЭРА кабель витая пара F/UTP
+                4*2*24AWG Cat5e CU PE OUTDOOR
+                305 м SIMPLE (1/32) (1/32)
+              </p>
+          </div>    
+      <div class="product-bottom">
+              <div class="price">
+                  <p class="red">190 б.р.</p>
+                  <p class="del">250 б.р.</p>
                 </div>
+              <div class="button-container">
+                  <a href="">
+                      <img src="img/statistika.svg" alt="stat">
+                  </a>
+                  <button class="shopping-cart">
+                      <img src="img/korsina.svg" alt="cart">
+                  </button>
               </div>
-            </div>
           </div>
-        </div>
-        <div class="swiper-slide sw-slide">
-          <div class="cards">
-            <div class="card--product">
-              <img src="img/product.png">
-              <div class="product__text">
-                <p class="card__text">
-                  ЭРА кабель витая пара F/UTP
-                  4*2*24AWG Cat5e CU PE OUTDOOR
-                  305 м SIMPLE (1/32) (1/32)
-                </p>
-              </div>
-              <div class="card--product__cost">
-                <p class="card--product__cost--text">
-                  <span class="card--product__cost--text-red">190 б.р</span>
-                  <br>
-                  <span class="card--product__cost--text-through"> 250 б.р</span>
-                </p>
-                <div class="card--product__cost--button">
-                  <button type="button">
-                    <img src="img/statistika.svg">
-                  </button>
-                  <button type="button">
-                    <img src="img/korsina.svg">
-                  </button>
-                </div>
-              </div>
-            </div>
+          <div class="hover-div">
+              <a href="" class="hover-button">Купить в 1 клик</a>
           </div>
-        </div>
-        <div class="swiper-slide sw-slide">
-          <div class="cards">
-            <div class="card--product">
-              <img src="img/product.png">
-              <div class="product__text">
-                <p class="card__text">
-                  ЭРА кабель витая пара F/UTP
-                  4*2*24AWG Cat5e CU PE OUTDOOR
-                  305 м SIMPLE (1/32) (1/32)
-                </p>
-              </div>
-              <div class="card--product__cost">
-                <p class="card--product__cost--text">
-                  <span class="card--product__cost--text-red">190 б.р</span>
-                  <br>
-                  <span class="card--product__cost--text-through"> 250 б.р</span>
-                </p>
-                <div class="card--product__cost--button">
-                  <button type="button">
-                    <img src="img/statistika.svg">
-                  </button>
-                  <button type="button">
-                    <img src="img/korsina.svg">
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide sw-slide">
-          <div class="cards">
-            <div class="card--product">
-              <img src="img/product.png">
-              <div class="product__text">
-                <p class="card__text">
-                  ЭРА кабель витая пара F/UTP
-                  4*2*24AWG Cat5e CU PE OUTDOOR
-                  305 м SIMPLE (1/32) (1/32)
-                </p>
-              </div>
-              <div class="card--product__cost">
-                <p class="card--product__cost--text">
-                  <span class="card--product__cost--text-red">190 б.р</span>
-                  <br>
-                  <span class="card--product__cost--text-through"> 250 б.р</span>
-                </p>
-                <div class="card--product__cost--button">
-                  <button type="button">
-                    <img src="img/statistika.svg">
-                  </button>
-                  <button type="button">
-                    <img src="img/korsina.svg">
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide sw-slide">
-          <div class="cards">
-            <div class="card--product">
-              <img src="img/product.png">
-              <div class="product__text">
-                <p class="card__text">
-                  ЭРА кабель витая пара F/UTP
-                  4*2*24AWG Cat5e CU PE OUTDOOR
-                  305 м SIMPLE (1/32) (1/32)
-                </p>
-              </div>
-              <div class="card--product__cost">
-                <p class="card--product__cost--text">
-                  <span class="card--product__cost--text-red">190 б.р</span>
-                  <br>
-                  <span class="card--product__cost--text-through"> 250 б.р</span>
-                </p>
-                <div class="card--product__cost--button">
-                  <button type="button">
-                    <img src="img/statistika.svg">
-                  </button>
-                  <button type="button">
-                    <img src="img/korsina.svg">
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide sw-slide">
-          <div class="cards">
-            <div class="card--product">
-              <img src="img/product.png">
-              <div class="product__text">
-                <p class="card__text">
-                  ЭРА кабель витая пара F/UTP
-                  4*2*24AWG Cat5e CU PE OUTDOOR
-                  305 м SIMPLE (1/32) (1/32)
-                </p>
-              </div>
-              <div class="card--product__cost">
-                <p class="card--product__cost--text">
-                  <span class="card--product__cost--text-red">190 б.р</span>
-                  <br>
-                  <span class="card--product__cost--text-through"> 250 б.р</span>
-                </p>
-                <div class="card--product__cost--button">
-                  <button type="button">
-                    <img src="img/statistika.svg">
-                  </button>
-                  <button type="button">
-                    <img src="img/korsina.svg">
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide sw-slide">
-          <div class="cards">
-            <div class="card--product">
-              <img src="img/product.png">
-              <div class="product__text">
-                <p class="card__text">
-                  ЭРА кабель витая пара F/UTP
-                  4*2*24AWG Cat5e CU PE OUTDOOR
-                  305 м SIMPLE (1/32) (1/32)
-                </p>
-              </div>
-              <div class="card--product__cost">
-                <p class="card--product__cost--text">
-                  <span class="card--product__cost--text-red">190 б.р</span>
-                  <br>
-                  <span class="card--product__cost--text-through"> 250 б.р</span>
-                </p>
-                <div class="card--product__cost--button">
-                  <button type="button">
-                    <img src="img/statistika.svg">
-                  </button>
-                  <button type="button">
-                    <img src="img/korsina.svg">
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide sw-slide">
-          <div class="cards">
-            <div class="card--product">
-              <img src="img/product.png">
-              <div class="product__text">
-                <p class="card__text">
-                  ЭРА кабель витая пара F/UTP
-                  4*2*24AWG Cat5e CU PE OUTDOOR
-                  305 м SIMPLE (1/32) (1/32)
-                </p>
-              </div>
-              <div class="card--product__cost">
-                <p class="card--product__cost--text">
-                  <span class="card--product__cost--text-red">190 б.р</span>
-                  <br>
-                  <span class="card--product__cost--text-through"> 250 б.р</span>
-                </p>
-                <div class="card--product__cost--button">
-                  <button type="button">
-                    <img src="img/statistika.svg">
-                  </button>
-                  <button type="button">
-                    <img src="img/korsina.svg">
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          <a href="" class="hover"></a>
       </div>
-      <!-- Add Arrows -->
+</div>
+<div class="swiper-slide second">
+  <div class="product-card">
+      <a href="" class="product-card__link">
+          <img src="img/product.png" alt="form">
+      </a>
+      <div class="product__text">
+          <p>
+            ЭРА кабель витая пара F/UTP
+            4*2*24AWG Cat5e CU PE OUTDOOR
+            305 м SIMPLE (1/32) (1/32)
+          </p>
+      </div>    
+  <div class="product-bottom">
+          <div class="price">
+              <p class="red">190 б.р.</p>
+              <p class="del">250 б.р.</p>
+            </div>
+          <div class="button-container">
+              <a href="">
+                  <img src="img/statistika.svg" alt="stat">
+              </a>
+              <button class="shopping-cart">
+                  <img src="img/korsina.svg" alt="cart">
+              </button>
+          </div>
+      </div>
+      <div class="hover-div">
+          <a href="" class="hover-button">Купить в 1 клик</a>
+      </div>
+      <a href="" class="hover"></a>
+  </div>
+</div>
+          </div>
+          <div class="slider-second-btn-next swiper-button-next"></div>
+          <div class="slider-second-btn-prev swiper-button-prev"></div>
+        </div>
+  </div>
+</div>
+</section>
+<section class="chapter">
+  <div class="container">
+    <div class="chapter-text">
+      <div class="white">
+       <p>Калькулятор экономии</p>
+      </div>
+      
     </div>
-    <div class="swiper-button-next button-s2 "></div>
-    <div class="swiper-button-prev button-s2 "></div>
-  </section>
-
-  <section class="chapter__calculator">
-    <div class="chapter-calculator__text">
-      <p>Калькулятор Экономии</p>
-    </div>
-  </section>
+  </div>
+</section>
 
   <section class="calculator">
     <div class="calculator-wrapper">
@@ -591,12 +398,16 @@
     </div>
   </section>
 
-  <section class="chapter__product-category">
-    <div class="product-category__text">
-      <p>Категория товаров</p>
+  <section class="chapter">
+    <div class="container">
+      <div class="chapter-text">
+        <div class="white">
+         <p>Категории товаров</p>
+        </div>
+        
+      </div>
     </div>
-  </section>
-
+ </section>
   <section class="category">
     <div class="category-wrapper">
       <div class="all-category">
@@ -826,31 +637,35 @@
     </div>
   </section>
 
-  <section class="chapter__end-blog">
-    <div class="chapter-end-blog__text">
-      <p>Последнее в блоге</p>
+  <section class="chapter">
+    <div class="container">
+      <div class="chapter-text">
+        <div class="white">
+         <p>Последнее в блоге</p>
+        </div>
+        
+      </div>
     </div>
-  </section>
-
+ </section>
   <section class="end-in-blog">
     <div class="end-in-blog__container">
       <div class="end-blog__cards">
         <div class="card-first">
-          <img src="img/blogCard1.svg">
+          <img src="img/blogCard1.svg" width="100%">
           <div class="card__link">
             <a href="#">Преимущества светодиодного освещения</a>
           </div>
 
         </div>
         <div class="card-second">
-          <img src="img/blogCard2.svg">
+          <img src="img/blogCard2.svg" width="100%">
           <div class="card__link">
             <a href="#">Задачи и нормы освещения офиса</a>
           </div>
 
         </div>
         <div class="card-third">
-          <img src="img/blogCard3.svg">
+          <img src="img/blogCard3.svg" width="100%" >
           <div class="card__link">
             <a href="#">Как стать нашим дилером в РБ</a>
           </div>
